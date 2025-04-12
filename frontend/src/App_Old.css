@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+}
+
+.flex{
+  display: flex;
+  gap: 6px;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.gap-12{
+  gap: 12px;
+}
+
+.gap-8{
+  gap: 8px;
+}
+
+.spacebetween{
+  justify-content: space-between;
+}
+
+.centerb{
+  justify-content: center;
+  align-self: center;
+}
+
+.center{
+  justify-content: center;
+}
+
+.fitContent{
+  width: fit-content;
+}
+
+.fb1{
+  flex: 1;
+}
+
+.inputLabel{
+  font-size: 14px;
+}
+
+.btn{
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+input{
+  padding: 10px 64px 10px 16px;
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 1px;
+  font-size: 14px;
+}
+
+#container{
+  --primaryColor: #181818;
+  --secondaryColor: #fcfcfc;
+  --accentColor: rgb(94, 0, 105);
+  --acptColor: green;
+  --rjctColor: red;
+
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  height: 100svh;
+}
+
+#navbar{
+  border-bottom: 1px solid var(--secondaryColor);
+  padding: 12px;
+}
+
+.logoTxt{
+  font-size: 24px;
+}
+
+.borderBox{
+  border: 2px solid var(--secondaryColor);
+  padding: 24px;
+}
+
+.sectionHeading{
+  font-size: 36px;
+}
+
+.whiteBtn{
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.transparentBtn{
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+
+
+
+
+
